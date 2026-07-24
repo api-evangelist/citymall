@@ -1,9 +1,27 @@
 aid: citymall
 name: CityMall
-description: 'CityMall is a company surfaced as a portfolio company of accel, general-catalyst, norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'CityMall is an Indian social-commerce and e-commerce platform operated by Rashanbox
+  Retail Private Limited (CIN U52190HR2020PTC086114), serving Tier-2 and Tier-3 towns through a
+  community-group-buying model. Customers shop across groceries, staples, fashion, electronics,
+  home and kitchen, beauty and health, kids and toys, and books and stationery, with cash-on-delivery
+  and free-delivery options via web and native Android/iOS apps. The company runs on modern web
+  infrastructure (CloudFront CDN, next-gen image optimization) and is backed by Accel, General
+  Catalyst, and Norwest Venture Partners. No public developer API, portal, or documentation surface
+  is currently published; this profile captures the company identity and its verified domain-security
+  posture.'
 url: https://raw.githubusercontent.com/api-evangelist/citymall/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://citymall.live/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- E-Commerce
+- Social Commerce
+- Retail
+- Grocery
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/citymall-domain-security.yml
 - type: Website
   url: https://citymall.live/
+- type: PrivacyPolicy
+  url: https://citymall.live/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
