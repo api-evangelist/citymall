@@ -10,6 +10,17 @@ description: 'CityMall is an Indian social-commerce and e-commerce platform oper
   is currently published; this profile captures the company identity and its verified domain-security
   posture.'
 url: https://raw.githubusercontent.com/api-evangelist/citymall/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
