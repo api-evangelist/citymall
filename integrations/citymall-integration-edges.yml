@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/citymall/integrations
+- https://n8n.io/integrations/citymall/
+- https://composio.dev/toolkits/citymall
+- https://monid.ai/tools/citymall
+checked:
+- https://composio.dev/toolkits/citymall
+- https://monid.ai/tools/citymall
+- https://n8n.io/integrations/citymall/
+- https://zapier.com/apps/citymall/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
